@@ -70,6 +70,10 @@ We can saw `cmd.Output()` cost 60 seconds. It should not hang on by `io.copy()`.
 ```
 [root@archive GoCmdHangExample]# uname -a
 Linux archive 3.10.0-1062.9.1.el7.x86_64 #1 SMP Fri Dec 6 15:49:49 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+[root@archive GoCmdHangExample]# rpm -q centos-release
+centos-release-7-6.1810.2.el7.centos.x86_64
+[root@archive GoCmdHangExample]# go version
+go version go1.13.3 linux/amd64
 [root@archive GoCmdHangExample]# go env
 GO111MODULE=""
 GOARCH="amd64"
@@ -103,8 +107,6 @@ CGO_FFLAGS="-g -O2"
 CGO_LDFLAGS="-g -O2"
 PKG_CONFIG="pkg-config"
 GOGCCFLAGS="-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build609385503=/tmp/go-build -gno-record-gcc-switches"
-[root@archive GoCmdHangExample]# go version
-go version go1.13.3 linux/amd64
 ```
 
 ## How to stop example
