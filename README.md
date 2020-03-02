@@ -13,6 +13,9 @@ This example have two go routine.
 1. copy srcFile to fuse file system
 2. loop to run shell systemctl --is-active smb for 10 times.
 
+## GoHangExampleWithDeadline
+An other example in Go. Use `context.WithDeadline()` to run shell. It also hangon `Run()`
+
 ## Duplicate Issue
 1. run fuse file system
 ```
