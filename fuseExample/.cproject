@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.1646715255">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.1646715255" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1646715255" name="Debug" optionalBuildProperties="" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1646715255." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1858941652" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.1513657387" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/fuseExample}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1610280353" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1015739623" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.72461823" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1830102185" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.636519422" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.86892071" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1451184600" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.218246829" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1988565074" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/fuse3"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1545010751" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.740204033" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.link.option.libs.1630644731" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="fuse3"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="pthread"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1096003970" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1798479293" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.155248678" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1526029204" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="org.eclipse.cdt.managedbuilder.pkgconfig.extSettings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting contentTypes="org.eclipse.cdt.managedbuilder.core.compiledObjectFile">
+						<entry flags="UNDEFINED" kind="libraryFile" name="fuse3" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="UNDEFINED" kind="libraryFile" name="pthread" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+					<externalSetting contentTypes="org.eclipse.cdt.core.cSource:org.eclipse.cdt.core.cxxSource">
+						<entry flags="BUILTIN" kind="includePath" name="/usr/include/fuse3"/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+			<storageModule Enginio="false" Qt="false" Qt3Support="false" Qt5="false" Qt53DAnimation="false" Qt53DCore="false" Qt53DExtras="false" Qt53DInput="false" Qt53DLogic="false" Qt53DQuick="false" Qt53DQuickAnimation="false" Qt53DQuickExtras="false" Qt53DQuickInput="false" Qt53DQuickRender="false" Qt53DQuickScene2D="false" Qt53DRender="false" Qt5Bluetooth="false" Qt5Concurrent="false" Qt5Core="false" Qt5DBus="false" Qt5Designer="false" Qt5Gui="false" Qt5Help="false" Qt5Location="false" Qt5Multimedia="false" Qt5MultimediaWidgets="false" Qt5Network="false" Qt5Nfc="false" Qt5OpenGL="false" Qt5Positioning="false" Qt5PrintSupport="false" Qt5Qml="false" Qt5Quick="false" Qt5QuickTest="false" Qt5QuickWidgets="false" Qt5Script="false" Qt5ScriptTools="false" Qt5Sensors="false" Qt5SerialPort="false" Qt5Sql="false" Qt5Svg="false" Qt5Test="false" Qt5WebChannel="false" Qt5WebSockets="false" Qt5Widgets="false" Qt5X11Extras="false" Qt5Xml="false" Qt5XmlPatterns="false" QtCLucene="false" QtCore="false" QtDBus="false" QtDeclarative="false" QtDesigner="false" QtDesignerComponents="false" QtGui="false" QtHelp="false" QtMultimedia="false" QtNetwork="false" QtOpenGL="false" QtScript="false" QtScriptTools="false" QtSql="false" QtSvg="false" QtTest="false" QtUiTools="false" QtXml="false" QtXmlPatterns="false" alsa="false" apr-1="false" apr-util-1="false" atk="false" atk-bridge-2.0="false" atspi-2="false" audit="false" auparse="false" bash-completion="false" bigreqsproto="false" blkid="false" cairo="false" cairo-egl="false" cairo-fc="false" cairo-ft="false" cairo-gl="false" cairo-glx="false" cairo-gobject="false" cairo-pdf="false" cairo-png="false" cairo-ps="false" cairo-script="false" cairo-svg="false" cairo-tee="false" cairo-xcb="false" cairo-xcb-shm="false" cairo-xlib="false" cairo-xlib-xrender="false" camel-1.2="false" check="false" com_err="false" compositeproto="false" damageproto="false" dbus-1="false" dbus-glib-1="false" dmxproto="false" dracut="false" dri="false" dri2proto="false" dri3proto="false" e2p="false" egl="false" epoxy="false" evieproto="false" evolution-data-server-1.2="false" expat="false" ext2fs="false" fixesproto="false" fontconfig="false" fontsproto="false" fontutil="false" form="false" formw="false" freeglut="false" freetype2="false" fribidi="false" fuse="false" fuse3="true" gail="false" gail-3.0="false" gck-1="false" gcr-3="false" gcr-base-3="false" gcr-ui-3="false" gdk-2.0="false" gdk-3.0="false" gdk-pixbuf-2.0="false" gdk-pixbuf-xlib-2.0="false" gdk-wayland-3.0="false" gdk-x11-2.0="false" gdk-x11-3.0="false" geocode-glib-1.0="false" gio-2.0="false" gio-unix-2.0="false" giomm-2.4="false" gl="false" glib="false" glib-2.0="false" glibmm-2.4="false" glproto="false" glu="false" glw="false" gmodule="false" gmodule-2.0="false" gmodule-export-2.0="false" gmodule-no-export-2.0="false" gnome-desktop-3.0="false" gnome-icon-theme-symbolic="false" gnome-keybindings="false" gnome-keyring-1="false" gnome-video-effects="false" gnutls="false" gnutls-dane="false" goa-1.0="false" goa-backend-1.0="false" gobject-2.0="false" gobject-introspection-1.0="false" gobject-introspection-no-export-1.0="false" graphite2="false" gsettings-desktop-schemas="false" gssrpc="false" gstreamer-1.0="false" gstreamer-allocators-1.0="false" gstreamer-app-1.0="false" gstreamer-audio-1.0="false" gstreamer-base-1.0="false" gstreamer-check-1.0="false" gstreamer-controller-1.0="false" gstreamer-fft-1.0="false" gstreamer-net-1.0="false" gstreamer-pbutils-1.0="false" gstreamer-plugins-base-1.0="false" gstreamer-riff-1.0="false" gstreamer-rtp-1.0="false" gstreamer-rtsp-1.0="false" gstreamer-sdp-1.0="false" gstreamer-tag-1.0="false" gstreamer-video-1.0="false" gthread="false" gthread-2.0="false" gtkplus-2.0="false" gtkplus-3.0="false" gtkplus-unix-print-2.0="false" gtkplus-unix-print-3.0="false" gtkplus-wayland-3.0="false" gtkplus-x11-2.0="false" gtkplus-x11-3.0="false" gudev-1.0="false" gweather-3.0="false" harfbuzz="false" harfbuzz-icu="false" hogweed="false" hunspell="false" ice="false" icu-i18n="false" icu-io="false" icu-le="false" icu-lx="false" icu-uc="false" inputproto="false" javascriptcoregtk-4.0="false" json-glib-1.0="false" kadm-client="false" kadm-server="false" kbproto="false" kdb="false" krb5="false" krb5-gssapi="false" libattica="false" libcanberra="false" libcanberra-gtk="false" libcanberra-gtk3="false" libcap="false" libcap-ng="false" libcares="false" libconfig="false" libconfigplusplus="false" libcrypto="false" libcurl="false" libdrm="false" libdrm_amdgpu="false" libdrm_intel="false" libdrm_nouveau="false" libdrm_radeon="false" libdw="false" libebackend-1.2="false" libebook-1.2="false" libebook-contacts-1.2="false" libecal-1.2="false" libedata-book-1.2="false" libedata-cal-1.2="false" libedataserver-1.2="false" libedataserverui-1.2="false" libelf="false" libexslt="false" libffi="false" libgdata="false" libglvnd="false" libical="false" libip4tc="false" libip6tc="false" libiptc="false" libjpeg="false" libkdcraw="false" libkexiv2="false" libkipi="false" libkms="false" libksane="false" liblzma="false" libmariadb="false" libmodbus="false" libnl-1="false" libnotify="false" libpcre="false" libpcre16="false" libpcre32="false" libpcrecpp="false" libpcreposix="false" libpng="false" libpng15="false" libpulse="false" libpulse-mainloop-glib="false" libpulse-simple="false" librsvg-2.0="false" libsasl2="false" libsecret-1="false" libsecret-unstable="false" libselinux="false" libsepol="false" libsoup-2.4="false" libsoup-gnome-2.4="false" libssl="false" libstartup-notification-1.0="false" libsystemd="false" libsystemd-daemon="false" libsystemd-id128="false" libsystemd-journal="false" libsystemd-login="false" libtasn1="false" libtiff-4="false" libudev="false" libusb-1.0="false" libva="false" libva-drm="false" libva-egl="false" libva-glx="false" libva-tpi="false" libva-wayland="false" libva-x11="false" libverto="false" libvirt="false" libvirt-admin="false" libvirt-lxc="false" libvirt-qemu="false" libxml-2.0="false" libxslt="false" libyami="false" mallard-rng="false" mariadb="false" menu="false" menuw="false" mit-krb5="false" mit-krb5-gssapi="false" moduleId="packages" ncurses="false" ncursesplusplus="false" ncursesplusplusw="false" ncursesw="false" nettle="false" nspr="false" nss="false" nss-softokn="false" nss-util="false" oauth="false" openlmi="false" openssl="false" p11-kit-1="false" panel="false" panelw="false" pango="false" pangocairo="false" pangoft2="false" pangoxft="false" phonon="false" pixman-1="false" polkit-agent-1="false" polkit-gobject-1="false" presentproto="false" printproto="false" pthread-stubs="false" pygobject-3.0="false" python="false" python-2.7="false" python2="false" qt-mt="false" quota="false" randrproto="false" recordproto="false" renderproto="false" resourceproto="false" rpm="false" sane-backends="false" scrnsaverproto="false" sdl="false" shared-desktop-ontologies="false" shared-mime-info="false" sigcplusplus-2.0="false" sm="false" soprano="false" sopranoclient="false" sopranoindex="false" sopranoserver="false" sqlite3="false" systemd="false" tbb="false" tbbmalloc="false" tbbmalloc_proxy="false" tic="false" tinfo="false" udev="false" unique-3.0="false" usbutils="false" uuid="false" videoproto="false" wayland-client="false" wayland-cursor="false" wayland-egl="false" wayland-egl-backend="false" wayland-protocols="false" wayland-scanner="false" wayland-server="false" webkit2gtk-4.0="false" webkit2gtk-web-extension-4.0="false" x11="false" x11-xcb="false" xau="false" xaw7="false" xbitmaps="false" xcb="false" xcb-composite="false" xcb-damage="false" xcb-dpms="false" xcb-dri2="false" xcb-dri3="false" xcb-glx="false" xcb-present="false" xcb-randr="false" xcb-record="false" xcb-render="false" xcb-res="false" xcb-screensaver="false" xcb-shape="false" xcb-shm="false" xcb-sync="false" xcb-xevie="false" xcb-xf86dri="false" xcb-xfixes="false" xcb-xinerama="false" xcb-xinput="false" xcb-xkb="false" xcb-xselinux="false" xcb-xtest="false" xcb-xv="false" xcb-xvmc="false" xcmiscproto="false" xcomposite="false" xcursor="false" xdamage="false" xext="false" xextproto="false" xf86bigfontproto="false" xf86dgaproto="false" xf86driproto="false" xf86miscproto="false" xf86vidmodeproto="false" xfixes="false" xft="false" xi="false" xinerama="false" xineramaproto="false" xkbcommon="false" xkbfile="false" xmu="false" xmuu="false" xp="false" xpm="false" xproto="false" xproxymngproto="false" xrandr="false" xrender="false" xscrnsaver="false" xt="false" xtables="false" xtst="false" xv="false" xxf86misc="false" xxf86vm="false" zlib="false"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.1710193809">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.1710193809" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.1710193809" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.1710193809." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.602069501" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.1858537646" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/fuseExample}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.885485202" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1381587065" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1002621785" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.151966396" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.341547250" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.898090797" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.540342190" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.377266809" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.285449112" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1313287559" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1687256693" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.743995829" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.1536636814" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.148596557" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="fuseExample.cdt.managedbuild.target.gnu.exe.2064610672" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.1710193809;cdt.managedbuild.config.gnu.exe.release.1710193809.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.898090797;cdt.managedbuild.tool.gnu.c.compiler.input.285449112">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1646715255;cdt.managedbuild.config.gnu.exe.debug.1646715255.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.86892071;cdt.managedbuild.tool.gnu.c.compiler.input.1545010751">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/fuseExample"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/fuseExample"/>
+		</configuration>
+	</storageModule>
+</cproject>
