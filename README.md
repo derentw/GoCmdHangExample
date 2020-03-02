@@ -64,7 +64,7 @@ We can saw `cmd.Output()` cost 60 seconds. It should not hang on by `io.copy()`.
 2020/03/02 09:42:58 systemctl is-active smb done
 ```
 ## What I want to see
-`cmd.Output()` is no hang on.
+`cmd.Output()` run without delay.
 
 ## How to stop example
 ```
