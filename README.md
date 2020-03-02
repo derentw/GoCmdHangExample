@@ -38,7 +38,30 @@ go run main.go
 
 2020/03/02 09:41:58 exec.Command loop 1
 2020/03/02 09:41:58 systemctl is-active smb
+2020/03/02 09:42:58 systemctl is-active smb done
+2020/03/02 09:42:58 systemctl is-active smb: result
+2020/03/02 09:42:58 active
+
+2020/03/02 09:42:58 exec.Command loop 2
+2020/03/02 09:42:58 systemctl is-active smb
+2020/03/02 09:42:58 systemctl is-active smb done
+2020/03/02 09:42:58 systemctl is-active smb: result
+2020/03/02 09:42:58 active
+
+...
+
+2020/03/02 09:42:58 exec.Command loop 9
+2020/03/02 09:42:58 systemctl is-active smb
+2020/03/02 09:42:58 systemctl is-active smb done
+2020/03/02 09:42:58 systemctl is-active smb: result
+2020/03/02 09:42:58 active
+
 ```
 
+We can saw `cmd.Output()` cost 60 seconds. It should not hang on by `io.copy()`.
+```
+2020/03/02 09:41:58 systemctl is-active smb
+2020/03/02 09:42:58 systemctl is-active smb done
+```
 ## What I want to see
 `cmd.Output()` is no hang on.
