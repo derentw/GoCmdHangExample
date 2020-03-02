@@ -65,3 +65,8 @@ We can saw `cmd.Output()` cost 60 seconds. It should not hang on by `io.copy()`.
 ```
 ## What I want to see
 `cmd.Output()` is no hang on.
+
+## How to stop example
+```
+umount -f /mnt/fuse
+```
