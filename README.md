@@ -112,7 +112,18 @@ PKG_CONFIG="pkg-config"
 GOGCCFLAGS="-fPIC -m64 -pthread -fmessage-length=0 -fdebug-prefix-map=/tmp/go-build609385503=/tmp/go-build -gno-record-gcc-switches"
 ```
 
+## CHangExample
+C language also have this problem.
+This example have two thread
+
+1. copy srcFile to fuse file system
+2. loop to run shell systemctl --is-active smb for 10 times.
+
+
 ## How to stop example
 ```
 umount -f /mnt/fuse
 ```
+
+## Q&A
+1. When hang on, systemctl is-active smb not hang on. on shell.
