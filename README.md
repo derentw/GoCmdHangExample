@@ -127,3 +127,5 @@ umount -f /mnt/fuse
 
 ## Q&A
 1. When hang on, systemctl is-active smb not hang on. on shell.
+2. The last Linux Kernel also have this problem.
+`Linux localhost.localdomain 5.5.7-1.el7.elrepo.x86_64 #1 SMP Fri Feb 28 12:21:58 EST 2020 x86_64 x86_64 x86_64 GNU/Linux`
